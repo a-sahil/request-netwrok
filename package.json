@@ -1,0 +1,20 @@
+{
+  "name": "request",
+  "version": "1.0.0",
+  "main": "pay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@requestnetwork/epk-signature": "^0.9.3",
+    "@requestnetwork/payment-processor": "^0.50.0",
+    "@requestnetwork/request-client.js": "^0.52.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7"
+  }
+}
